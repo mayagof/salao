@@ -1,10 +1,16 @@
-img{
-width: 200px;
-margin-left: 300px;
-
-
+body{
+  background-color: blueviolet;
 }
-
+h1{
+font: size 900px; ;
+color: beige;
+text-align: center;
+}
+img{
+width: 500px;
+height: 500px;
+margin: left 400px;
+}
 .cabecalho{
   background-color: blueviolet;
   display: flex;
@@ -12,7 +18,13 @@ margin-left: 300px;
 }
 .listacabecalho{
 display: flex;
-margin-left:760px ;
+margin-left:400px ;
 margin-top:100px ;
 
+}
+.itemlistacabecalho{
+  list-style: nome;
+  padding-left: 10px;
+  text-transform:  uppercase;
+  font-size: 30px;
 }
